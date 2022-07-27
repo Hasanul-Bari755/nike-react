@@ -15,7 +15,7 @@
      <header class="mt-5">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container">
-                <div class="row d-flex">
+                <div class="row ">
                     <div class="col-lg-6">
                             <a class="navbar-brand" href="#"><img class="w-50" src="icons/Logo.png" alt=""></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -23,8 +23,9 @@
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                     </div>
-                    <div class="col-lg-6 d-flex justify-content-around">
+                    <div class="col-lg-6">
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <div>
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-evenly">
                                     <li class="nav-item">
                                         <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -32,18 +33,18 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Product</a>
                                     </li>
-                            
+                                
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">About Us</a>
                                     </li>
-                            
+                                
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Contact</a>
                                     </li>
-                            
-                            
+                                
+                                
                                 </ul>
-                            
+                              </div>
                             </div>
                     </div>
                 </div>
@@ -54,14 +55,14 @@
      </header>
      <main>
         <section class="container  mt-5">
-           <div class="row d-flex justify-content-evenly align-items-center ">
-              <div class="col-lg-6 col-sm-12">
+           <div class="row d-flex justify-content-evenly align-items-center  ">
+              <div class="col-lg-6 col-sm-12 order-1 order-md-0">
                         <div>
                             <img class="img-fluid w-75" src="images/Group 33092.png" alt="">
                         </div>
                       
               </div>
-              <div class="col-lg-6 col-sm-12">
+              <div class="col-lg-6 col-sm-12 order-0 order-md-1  d-flex justify-content-md-center justify-content-sm-center  ">
                         <div class="p-3">
                             <h1 class="display-5 fw-bold color">Nike React</h1>
                             <h1 class="display-6 fw-bold">Infinity Run 2</h1>
@@ -75,7 +76,7 @@
         <!-- CASUAL SHOES -->
         <section class="container mt-5">
             <h2>CASUAL SHOES</h2>
-            <div class="row d-flex justify-content-between row-cols-sm-1 row-cols-lg-3 row-cols-md-2">
+            <div class="row d-flex justify-content-lg-between row-cols-sm-1 row-cols-lg-3 row-cols-md-2 justify-content-sm-center">
                 <div class="card border-0" style="width: 18rem;">
                     <img src=".//images/Daco_1703273 1.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -154,9 +155,9 @@
 
         <!-- last part -->
         <section class="container my-5">
-            <div class="row d-flex">
-                <div class="col-lg-5">
-                   <div class="d-flex flex-column align-items-evenly justify-content-evenly ">
+            <div class="row ">
+                <div class="col-lg-5 order-md-0">
+                   <div class="d-flex flex-column align-items-evenly justify-content-evenly justify-content-md-center ">
                         <div class="d-flex justify-content-around align-items-center   ">
                             <div>
                                 <img class="w-50" src="icons/image 12.png" alt="">
@@ -190,13 +191,16 @@
                    </div>
                      
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 order-md-1">
                     <img class="img-fluid" src="icons/XMLID 1.png" alt="">
                 </div>
             </div>
 
         </section>
+
+       
      </main>
+     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
